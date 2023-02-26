@@ -1,0 +1,27 @@
+  188  pwd
+  189  mkdir 1_folder
+  190  cd 1_folder
+  191  mkdir 2_folder 3_folder 4_folder
+  192  cd 2_folder
+  193  touch 1.txt 2.txt 3.txt 4.json 5.json
+  194  mkdir 5_folder 6_folder 7_folder
+  195  ls -la
+  196  vim 1.txt
+  197  cd ..
+  198  cd 2_folder
+  199  mv 2.txt 3.txt ../3_folder
+  200  cp 4.json 5.json ../4_folder
+  201  cd ..
+  202  find -name "4.json"
+  203  cd 2_folder
+  204  tail -f 1.txt
+  205  head 1.txt
+  206  tail 1.txt
+  207  less 1.txt
+  208  date
+  209  curl --location "http://162.55.220.72:5005/terminal-hw-request"
+  210  nano script.sh
+  211  mv script.sh ../../
+  212  cd ../../
+  213  bash script.sh
+  214  history > history.txt
